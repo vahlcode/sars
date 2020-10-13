@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 .support {
-  padding: 70px 0;
+  padding: 0 0 150px 0;
 }
 .support-cards {
   display: grid;

@@ -6,7 +6,7 @@
         Lend A Voice in Stopping the Extrajudicial Killings of Young Nigerians
         by The SARS!
       </p>
-      <a href="#">Read More</a>
+      <a href="#cases">Read More</a>
     </div>
     <div class="image">
       <img src="../assets/hero.jpg" alt="#EndSARS Protest" />

@@ -1,5 +1,5 @@
 <template>
-  <section class="cases">
+  <section class="cases" id="cases">
     <h1>Popular Cases</h1>
     <p>
       For years, innocent Nigerians has been facing so many harrassments,
