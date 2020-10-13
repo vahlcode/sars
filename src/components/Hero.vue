@@ -6,7 +6,7 @@
         Lend A Voice in Stopping the Extrajudicial Killings of Young Nigerians
         by The SARS!
       </p>
-      <a href="#cases">Read More</a>
+      <a href="" @click="scroll">Read More</a>
     </div>
     <div class="image">
       <img src="../assets/hero.jpg" alt="#EndSARS Protest" />
@@ -17,6 +17,13 @@
 <script>
 export default {
   name: "Hero",
+  methods: {
+    scroll: function(e) {
+      e.preventDefault()
+      let CASES = document.querySelector(".cases")
+      CASES.scrollIntoView()
+    }
+  }
 };
 </script>
 

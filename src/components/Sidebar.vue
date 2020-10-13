@@ -37,7 +37,7 @@ export default {
 <style scoped>
 @media only screen and (max-width: 600px) {
   .sidebar {
-    background: #ffffff;
+    background: #ffffff17;
     padding: 16px;
     position: fixed;
     bottom: 0;

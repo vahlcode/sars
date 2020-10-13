@@ -2,12 +2,7 @@
   <section class="cases" id="cases">
     <h1>Popular Cases</h1>
     <p>
-      For years, innocent Nigerians has been facing so many harrassments,
-      extortions, unlawful prosecutions, rape, kidnappings and extrajudicail
-      killings in the hands of those charged with the responsibility of
-      potecting them against these acts, below are few of the innocent
-      Nigerians whose lives has been taken by the SPECAIL ANTI-ROBBERY SQUAD
-      (SARS), in the list contains a girl of 16 years.
+      Below are the pictures of some of the victims of Police brutality by the SARS, they all lost their lives. In the list contains a girl of 16 years old.
     </p>
     <div class="case-cards">
       <Victim v-for="victim in victims" :victim="victim" :key="victim.id" />

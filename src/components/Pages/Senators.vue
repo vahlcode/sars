@@ -1,5 +1,5 @@
 <template>
-  <section class="senators">
+  <section class="home">
     <div class="search-form">
       <form action="">
         <Search />
@@ -86,9 +86,6 @@ export default {
 </script>
 
 <style scoped>
-.senators{
-  margin-bottom: 150px;
-}
 .search-form > form {
   display: flex;
   align-items: center;
@@ -107,7 +104,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  padding: 50px 0;
+  padding: 50px 0 150px 0;
 }
 .pre-loader {
   display: flex;

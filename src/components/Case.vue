@@ -1,7 +1,7 @@
 <template>
   <div class="case">
     <div class="image">
-      <img src="../assets/default.png" alt="Default Victim Picture" />
+      <img :src="'./assets/'+ victim.image" :alt="victim.name + '\'s Picture'" :title="victim.name" />
     </div>
     <div class="details">
       <span class="counter">
@@ -31,7 +31,7 @@ export default {
 .case > .image > img {
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: -40px;
   padding-bottom: -40px;
   position: relative;
